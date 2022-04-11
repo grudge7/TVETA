@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TTTI Basic Learning Project"
+        android:textColor="#A1887F"
+        android:textSize="30sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+        <ImageView
+            android:id="@+id/calendar_prev_button"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/thikatech"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/answerxc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:textColor="#222222"
+        android:text="Ericson"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Your Name"
+        android:hintTextColor="#757575"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Your Age"
+        android:hintTextColor="#757575"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/mybuttontv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to display your name and age"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:onClick="omybutton"
+        android:text="Click Me" />
+
+    <Button
+        android:id="@+id/pageadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:onClick="pageadd"
+        android:text="Add Two Numbers"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
